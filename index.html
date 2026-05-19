@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Security Demo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Courier New', monospace;
+      background: #0a0a0a;
+      color: #00ff41;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .skull { font-size: 80px; margin-bottom: 20px; }
+    h1 { font-size: 2rem; margin-bottom: 10px; color: #fff; }
+    .sig { font-size: 1.2rem; color: #00ff41; margin-bottom: 40px; }
+    .box {
+      border: 1px solid #00ff41;
+      padding: 20px 30px;
+      max-width: 500px;
+      background: #0f1a0f;
+      border-radius: 8px;
+      line-height: 1.8;
+      color: #aaa;
+      font-size: 0.95rem;
+    }
+    .box strong { color: #00ff41; }
+  </style>
+</head>
+<body>
+  <div class="skull">💀</div>
+  <h1>I could've hacked you.</h1>
+  <p class="sig">But I'm nice enough not to. &nbsp;— Islammm</p>
+  <div class="box">
+    <strong>⚠️ QR Code Security Awareness Demo</strong><br><br>
+    You just scanned an unknown QR code without verifying it first.<br><br>
+    This could have redirected you to a <strong>phishing page</strong>,
+    triggered a <strong>malware download</strong>, or stolen your credentials.<br><br>
+    This QR code is part of a cybersecurity thesis demonstration on <strong>QR phishing (Quishing)</strong>.
+  </div>
+</body>
+</html>
